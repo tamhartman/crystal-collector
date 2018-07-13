@@ -52,6 +52,9 @@ function userLoses(){
     resetValues();
 };
 
+$("#get-started").on("click", function(){
+    resetValues();
+})
 $("#crystal1").on("click", function(){
     playerScore = playerScore + crystal1;
     updateScore();

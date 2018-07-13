@@ -3,4 +3,10 @@ body{
 }
 img{
     margin: 24px;
+    max-width: 128px;
+    max-height: 128px;
+}
+h1{
+    font-size: 72px;
+    margin-top: 8px;
 }
